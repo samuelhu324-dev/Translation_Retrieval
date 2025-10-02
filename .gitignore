@@ -1,0 +1,32 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+.env/
+.venv/
+env/
+venv/
+
+# Logs and temp files
+*.log
+*.tmp
+
+# Jupyter notebooks checkpoints
+.ipynb_checkpoints/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Your project-specific files
+# Ignore local database and Excel files if you don’t want them in GitHub
+*.db
+*.sqlite3
+*.xls
+*.xlsx
+
+# Optional: export/import intermediate CSVs (keep only final versions if needed)
+*.csv
