@@ -1,32 +1,56 @@
-# Python cache
+# ------------------------
+# Python cache & compiled
+# ------------------------
 __pycache__/
 *.py[cod]
 *.pyo
 *.pyd
 
+# ------------------------
 # Virtual environments
+# ------------------------
 .env/
 .venv/
 env/
 venv/
 
-# Logs and temp files
+# ------------------------
+# Logs & temp
+# ------------------------
 *.log
 *.tmp
 
-# Jupyter notebooks checkpoints
+# ------------------------
+# Jupyter notebooks
+# ------------------------
 .ipynb_checkpoints/
 
+# ------------------------
 # System files
+# ------------------------
 .DS_Store
 Thumbs.db
 
-# Your project-specific files
-# Ignore local database and Excel files if you don’t want them in GitHub
+# ------------------------
+# Databases & spreadsheets
+# ------------------------
 *.db
 *.sqlite3
 *.xls
 *.xlsx
 
-# Optional: export/import intermediate CSVs (keep only final versions if needed)
+# Keep my_segments.xls explicitly
+!my_segments.xls
+
+# ------------------------
+# CSV files (ignore by default)
+# ------------------------
 *.csv
+
+# ------------------------
+# Markdown logs
+# ------------------------
+# By default keep all .md (since DEV_LOG.md is important)
+# If you want to ignore others, uncomment the next two lines:
+# *.md
+# !DEV_LOG.md
