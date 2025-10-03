@@ -14,8 +14,11 @@ Now then, there are plenty of rountine tasks as to how to standardise your trans
 #### 2.1 Import
 Due to time-cost considerations, two approaches are currently envisioned for the import function:
 (a) inputting translated clauses one by one after daily translation work (the most common scenario), and
+
 <img src="PIC1_Add_Entry.png" alt="alt text" style="width:75%; height:auto;" />
+
 (b) bulk injection. The latter is still under consideration, with the idea being that entire passages (especially those translated in the past) could be injected into the database based on a standard sentence-ending delimiter such as a period.
+
 <img src="PIC2_Bulk_Import.png" alt="alt text" style="width:75%; height:auto;" />
 
 
@@ -23,6 +26,7 @@ Due to time-cost considerations, two approaches are currently envisioned for the
 This is the second-highest development priority after import. Search must include both source and target languages so that Chinese–English and English–Chinese comparisons can be carried out separately. Another key challenge under ongoing testing is how best to optimize the retrieved results.
 
 Ideally, search results are expected to include the original source of the text, allow keyword-based text location, and record the injection time. If possible, a filter function are expected to be added later to retrieve text based on criteria such as day/month, combined with other filter conditions. Here's a sketch program built on streamlit:
+
 <img src="PIC3_Search_Export.png" alt="alt text" style="width:75%; height:auto;" />
 
 #### 2.3 Basic Tree
@@ -39,7 +43,9 @@ translation-notes/
 
 ### 3. Demonstration
 The figure below shows what's happening using the `Go` tab. You can assume that I've added one entry already for test.
+
 <img src="PIC4_Demonstration.png" alt="alt text" style="width:75%; height:auto;" />
+
 As you can see, also a convenient copy-paste button available there.
 
 ### 4. Future Plans
