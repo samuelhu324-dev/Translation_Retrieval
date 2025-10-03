@@ -2,6 +2,12 @@ import sqlite3
 import pandas as pd
 import streamlit as st
 
+st.set_page_config(
+    layout="wide",       # 页面全宽
+    page_title="Translation Retrieval",  # 浏览器标签页标题
+    page_icon="🔎",       # favicon 图标
+)
+
 DB = "tm.db"
 
 @st.cache_resource
